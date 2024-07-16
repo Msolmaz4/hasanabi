@@ -32,5 +32,6 @@ router.use('/messages', require('./message.route'));
 router.use('/notifications', require('./notification.route'));
 
 router.use('/addresses', require('./address.route'));
-
+// document:
+router.use("/documents", require("./document.route"));
 module.exports = router;
